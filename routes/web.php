@@ -27,9 +27,17 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard')->middleware('auth');
 
-Route::get('/tables', function () {
-    return view('tables');
-})->name('tables')->middleware('auth');
+Route::get('/Students', function () {
+    return view('Students');
+})->name('Students')->middleware('auth');
+
+Route::get('/Instructors', function () {
+    return view('Instructors');
+})->name('Instructors')->middleware('auth');
+
+Route::get('/courses', function () {
+    return view('courses');
+})->name('courses')->middleware('auth');
 
 Route::get('/wallet', function () {
     return view('wallet');

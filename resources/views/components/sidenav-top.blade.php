@@ -11,11 +11,7 @@
                     Dashboard
                 </a>
             </li>
-            <li class="nav-item px-3 py-3 border-radius-sm  d-flex align-items-center">
-                <a href="{{ route('tables') }}" class="nav-link text-white p-0">
-                    Tables
-                </a>
-            </li>
+
             <li class="nav-item px-3 py-3 border-radius-sm bg-slate-800 d-flex align-items-center">
                 <a href="{{ route('wallet') }}" class="nav-link text-white p-0">
                     Wallet
